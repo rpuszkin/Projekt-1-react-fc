@@ -14,10 +14,18 @@ function Footer() {
           </p>
 
           <div className="footer-icn">
-            <a target="_blank" href="https://www.instagram.com/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/"
+            >
               <FontAwesomeIcon icon={faInstagram} className="footer-icn" />
             </a>
-            <a target="_blank" href="https://www.facebook.com/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.facebook.com/"
+            >
               <FontAwesomeIcon
                 icon={faFacebookSquare}
                 className="fa-square-facebook footer-icn"
