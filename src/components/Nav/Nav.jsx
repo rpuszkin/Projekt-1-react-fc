@@ -4,7 +4,7 @@ function Nav() {
     <>
       <nav className="menu-color">
         <div className="container">
-          <a className="menu-link font-bold " href=""/">
+          <a className="menu-link font-bold " href="/">
             moja firma
           </a>
           <ul className="menu-ul">
