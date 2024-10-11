@@ -1,0 +1,35 @@
+.specialists-section {
+  padding: 50px;
+  background: #f1f1f1;
+}
+.specialists-title {
+  margin-bottom: 78px;
+}
+.specialist-photo {
+  border-radius: 50%;
+  height: 200px;
+  aspect-ratio: 1;
+  background-color: #907d7d;
+  background-size: contain;
+}
+.specialist-one-face {
+  background-image: url("media/specialist1.png");
+  margin-right: 60px;
+}
+.specialist-two-face {
+  background-image: url("media/specialist2.png");
+  background-size: contain;
+  margin-left: 60px;
+}
+.specialist-section {
+  display: flex;
+  margin-top: 40px;
+}
+
+.specialist-section:nth-of-type(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.specialist-name {
+  margin-bottom: 12px;
+}

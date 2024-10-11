@@ -1,0 +1,16 @@
+footer {
+  height: 71px;
+  background: #4e4e4e;
+}
+footer .container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-icn {
+  font-size: 28px;
+  color: #fff;
+  margin-left: 18px;
+}

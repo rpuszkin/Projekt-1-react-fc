@@ -1,0 +1,35 @@
+header {
+  height: calc(100vh - 50px);
+  background-image: url("./media/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shadow {
+  padding: 50px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.15);
+}
+header .container {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-title {
+  width: 65%;
+}
+.header-subtitle {
+  margin: 62px 0 43px 0;
+}
+.header-btn {
+  text-decoration: none;
+  padding: 14px 56px 14px;
+  border: 3px solid #ffffff;
+  transition-duration: 1s;
+}
+.header-btn:hover {
+  background: #ffffff;
+  color: #000000;
+}

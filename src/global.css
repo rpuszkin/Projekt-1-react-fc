@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #e5e5e5;
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-white {
+  color: #ffffff;
+}
+.font-big {
+  font-size: 36px;
+}
