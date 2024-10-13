@@ -4,8 +4,8 @@ function Offer({ offer }) {
   return (
     <div className="grid-box">
       {offer.isNew && <div className="grid-dot"></div>}
-      <p>{offer.name}</p>
-      {offer.isNew && <p>(nowość)</p>}
+      <p className="offer-title">{offer.name}</p>
+      {offer.isNew && <p className="offer-title">(nowość)</p>}
     </div>
   );
 }
