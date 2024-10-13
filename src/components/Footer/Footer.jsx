@@ -3,7 +3,8 @@ import {
   faFacebookSquare,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import "./style.css";
+import "./Footer.css";
+
 function Footer() {
   return (
     <>
