@@ -9,4 +9,5 @@ function Offer({ offer }) {
     </div>
   );
 }
+
 export default Offer;

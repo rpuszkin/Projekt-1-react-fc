@@ -25,4 +25,5 @@ function Offers() {
     </section>
   );
 }
+
 export default Offers;

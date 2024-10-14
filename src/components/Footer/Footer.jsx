@@ -7,7 +7,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <div className="container">
         <p className=" font-bold font-white ">
           Wszelkie prawa zastrzeżone ® 2023 moja firma.
@@ -28,4 +28,5 @@ function Footer() {
     </footer>
   );
 }
+
 export default Footer;

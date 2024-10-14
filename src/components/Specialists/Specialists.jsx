@@ -36,4 +36,5 @@ function Specialists() {
     </section>
   );
 }
+
 export default Specialists;
