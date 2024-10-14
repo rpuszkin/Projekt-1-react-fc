@@ -6,3 +6,4 @@ const offers = [
   { name: "Usługa 5", isNew: false },
   { name: "Usługa 6", isNew: false },
 ];
+export default offers;

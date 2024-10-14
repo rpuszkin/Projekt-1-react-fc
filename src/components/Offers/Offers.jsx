@@ -1,6 +1,6 @@
 import "./Offers.css";
 import Offer from "./Offer.jsx";
-import "./data/data.js";
+import offers from "./data/data.js";
 
 function Offers() {
   return (
